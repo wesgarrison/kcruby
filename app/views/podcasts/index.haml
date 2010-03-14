@@ -3,7 +3,7 @@
 #podcast_episode
 
   #details
-    %h1 SD Ruby Podcast
+    %h1 KC Ruby Podcast
 
     %h2= "Episode 0#{@podcast.id}: #{@podcast.name}"
 
@@ -13,14 +13,14 @@
       = link_to "Watch now", @podcast.movie_link if @podcast
 
   .screenshot
-    = link_to(image_tag(@podcast.screenshot.url, :size => "345x266", :alt => "Episode 36"), @podcast.movie_link)
+    = link_to(image_tag(@podcast.screenshot.url, :size => "345x266", :alt => "Episode #{@podcast.id}"), @podcast.movie_link)
 
   #actions
-    = link_to(image_tag("application/feed.png", :size => "32x32", :alt => "Podcast feed"), "http://feeds2.feedburner.com/sdrbpodcast")
+    / = link_to(image_tag("application/feed.png", :size => "32x32", :alt => "Podcast feed"), "http://feeds2.feedburner.com/sdrbpodcast")
 
-    = link_to(image_tag("application/itunes.png", :size => "79x24", :alt => "Podcast feed for iTunes", :id => "itunes"), "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=168362573")
+    / = link_to(image_tag("application/itunes.png", :size => "79x24", :alt => "Podcast feed for iTunes", :id => "itunes"), "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=168362573")
     
-    = link_to(image_tag("http://feeds.feedburner.com/~fc/sdrbpodcast?bg=FFFFFF&amp;fg=666666&amp;anim=0", :size => "88x26", :alt => "Podcast feed", :id => "feed_stats"), "http://feeds2.feedburner.com/sdrbpodcast")
+    / = link_to(image_tag("http://feeds.feedburner.com/~fc/sdrbpodcast?bg=FFFFFF&amp;fg=666666&amp;anim=0", :size => "88x26", :alt => "Podcast feed", :id => "feed_stats"), "http://feeds2.feedburner.com/sdrbpodcast")
     
     %br.clear
 
