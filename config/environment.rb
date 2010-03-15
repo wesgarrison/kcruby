@@ -63,8 +63,8 @@ Rails::Initializer.run do |config|
   # Make sure the secret is at least 30 characters and all random, 
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
-    :session_key => '_sdruby_session',
-    :secret      => 'ba70e28c278c17fe60dac072cf3ce71645dc87c08f3fbf43462734e248741af28e7df76a70b976112a2e5a98a2480e843dcc2c92593e3251f402d88632b2591c'
+    :session_key => '_kcruby_session',
+    :secret      => 'ba70e28c278c17fe60dac072cf3ce71645dc87c0ba70e28c278c17fe60dac072cf3ce71645dc87c0'
   }
 
   # Use the database for sessions instead of the cookie-based default,
