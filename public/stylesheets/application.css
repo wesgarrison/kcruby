@@ -39,7 +39,7 @@ table {
 
 body {
   background: #000;
-  color: #98908c;
+  color: #8D9099;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 h1 {
@@ -80,7 +80,7 @@ form {
     form .select select {
       display: inline; }
   form #podcast_screenshot {
-    color: #98908c;
+    color: #8D9099;
     font-size: 14px; }
 
 p + h2 {
@@ -107,16 +107,16 @@ td {
   width: 900px; }
 
 #login {
-  color: #BF2022;
+  color: #215BBF;
   height: 30px;
   text-align: left;
   font-size: 14px;
   margin: 10px 10px 5px 5px; }
   #login a {
-    color: #98908c;
+    color: #8D9099;
     font-weight: normal; }
   #login a.name {
-    color: #BF2022;
+    color: #215BBF;
     font-weight: bold;
     text-decoration: none; }
     #login a.name:hover {
@@ -140,7 +140,7 @@ td {
     float: left;
     margin: 20px 0 0 30px; }
   #header #upcoming {
-    color: #312218;
+    color: #303030;
     float: left;
     font-size: 16px;
     height: 100px;
@@ -150,14 +150,14 @@ td {
       color: #666;
       font-size: 14px; }
     #header #upcoming #date {
-      color: #81161E;
+      color: #161A82;
       font-size: 20px;
       font-weight: bold;
       margin: 3px 0; }
     #header #upcoming a {
       color: #97908A; }
     #header #upcoming a#venue {
-      color: #312218;
+      color: #303030;
       text-decoration: none; }
       #header #upcoming a#venue:hover {
         text-decoration: underline; }
@@ -174,15 +174,15 @@ td {
     margin: 15px 15px 0 0; }
 
 #slogan {
-  background: #330906;
-  color: #be0d21;
+  background: #061733;
+  color: #0D78BF;
   font-size: 18px;
   font-weight: bold;
   height: 36px;
   padding: 20px; }
 
 #navigation {
-  background: #261B13;
+  background: #262626;
   font-size: 18px !important; }
   #navigation ul {
     height: 34px;
@@ -194,23 +194,23 @@ td {
       padding: 8px 20px;
       text-shadow: 2px 2px 2px #222; }
       #navigation ul li a {
-        color: #98908c;
+        color: #8D9099;
         text-decoration: none; }
         #navigation ul li a:hover {
           color: #fff;
           text-shadow: 1px 1px 0 #000; }
   #navigation li.active {
-    background: #312218; }
+    background: #303030; }
     #navigation li.active a {
       color: #fff;
       text-shadow: 1px 1px 0 #000; }
 
 #content {
-  background: #312218;
+  background: #303030;
   min-height: 500px;
   padding: 20px; }
   #content a {
-    color: #98908c; }
+    color: #8D9099; }
 
 #primary {
   padding-top: 5px;
@@ -326,7 +326,7 @@ label.iPhoneCheckLabelOff {
     margin: 7px 0 0 7px; }
 
 #sponsors {
-  background: #261B13;
+  background: #262626;
   border-top: 1px solid #333;
   border-bottom: 1px solid #333;
   color: #685F5A;
@@ -351,7 +351,7 @@ label.iPhoneCheckLabelOff {
     font-weight: normal; }
 
 #recruiters {
-  color: #776D67;
+  color: #787878;
   font-size: 12px;
   line-height: 14px;
   margin-top: 3px; }
@@ -362,7 +362,7 @@ label.iPhoneCheckLabelOff {
     font-size: 18px;
     margin: 0 0 10px 0; }
   #primary.tshirt img#tshirt {
-    border: 10px solid #261B13; }
+    border: 10px solid #262626; }
   #primary.tshirt p#details strong {
     display: inline;
     margin-left: 14px; }
@@ -385,7 +385,7 @@ label.iPhoneCheckLabelOff {
     display: none; }
 
 .screenshot {
-  border: 10px solid #261B13;
+  border: 10px solid #262626;
   height: 266px;
   margin: 12px 0;
   width: 345px; }
@@ -432,7 +432,7 @@ label.iPhoneCheckLabelOff {
   text-align: center;
   width: 121px; }
   #podcast_episode .watch_now a {
-    color: #98908c;
+    color: #8D9099;
     display: block;
     height: 30px;
     text-decoration: none;
@@ -452,7 +452,7 @@ ul#filter {
     width: 77px; }
     ul#filter li span {
       background: url('/images/application/filter.gif') no-repeat;
-      color: #98908c;
+      color: #8D9099;
       cursor: pointer;
       display: block;
       font-weight: bold;
@@ -496,7 +496,7 @@ ul#filter {
       padding-top: 8px;
       width: 69px; }
       #episodes .episode .watch a {
-        color: #98908c;
+        color: #8D9099;
         display: block;
         height: 25px;
         width: 69px; }
@@ -509,7 +509,7 @@ ul#filter {
     margin-right: -45px; }
 
 .member img {
-  border: 5px solid #261B13; }
+  border: 5px solid #262626; }
   .member img:hover {
     border: 5px solid #1B140D; }
 
@@ -524,11 +524,11 @@ ul#filter {
   .profile #basics {
     width: 300px; }
     .profile #basics p {
-      color: #776D67; }
+      color: #787878; }
       .profile #basics p strong {
-        color: #98908c; }
+        color: #8D9099; }
   .profile #avatar img {
-    border: 10px solid #261B13;
+    border: 10px solid #262626;
     margin: 15px 0 0 0; }
   .profile #stats {
     list-style-image: url('/images/application/favicon.png');
@@ -552,7 +552,7 @@ ul#filter {
         vertical-align: middle; }
 
 .projects span {
-  color: #776D67;
+  color: #787878;
   display: block;
   margin: 3px 0; }
 .projects li {
@@ -575,7 +575,7 @@ ul#filter {
         #users_with_projects .user .name a:hover {
           text-decoration: underline; }
     #users_with_projects .user img {
-      border: 5px solid #261B13;
+      border: 5px solid #262626;
       float: left;
       margin: 0 10px 0 0; }
       #users_with_projects .user img:hover {
